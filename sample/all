@@ -1,0 +1,16 @@
+"use strict";
+/* 01_watch.ts */
+let hello = 'hello';
+console.log(hello);
+function add(a, b) {
+    return a + b;
+}
+/* エラー */
+// let hello :number = 'hello';
+/* index.ts */
+let str = 'hello';
+console.log(str);
+/* lib.ts */
+let bye = 'bye';
+console.log(bye.toUpperCase());
+//# sourceMappingURL=all.map
