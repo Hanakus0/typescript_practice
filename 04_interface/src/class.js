@@ -1,10 +1,12 @@
 "use strict";
-class Developer {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    }
-    greeting(message) {
-        // console.log('Hello!');
-    }
-}
+// interface Human {
+//   name: string;
+//   age: number;
+//   greeting: (message: string) => void;
+// }
+// class Developer implements Human {
+//   constructor(public name: string, public age: number) {}
+//   greeting(message: string) {
+//     console.log('Hello!');
+//   }
+// }
