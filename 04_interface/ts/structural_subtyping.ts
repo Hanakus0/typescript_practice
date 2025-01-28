@@ -14,12 +14,12 @@ interface Human {
   greeting: (message: string) => void;
 }
 
-class Developer implements Human {
-  constructor(public name: string, public age: number, public experience: number) {}
-  greeting(message: string) {
-    console.log(message);
-  }
-}
+// class Developer implements Human {
+//   constructor(public name: string, public age: number, public experience: number) {}
+//   greeting(message: string) {
+//     console.log(message);
+//   }
+// }
 
 // フィールドの数は異なるが、DeveloperクラスはHumanインターフェースを満たしている 
 //=> 抽象性は左辺の方が高いため代入可能
